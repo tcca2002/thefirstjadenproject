@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>What is Linux?</title>
+</head>  
+
+<body>
+
+<font size="5">
+ 
+<p><strong>Installing Linux</strong></p>
+
+<p>For most, the idea of installing an operating system might seem like a very daunting task. Believe it or not, Linux offers one of the easiest installations of all operating systems. In fact, most versions of Linux offer what is called a Live distribution – which means you run the operating system from either a CD/DVD or USB flash drive without making any changes to your hard drive. You get the full functionality without having to commit to the installation. Once you’ve tried it out, and decided you wanted to use it, you simply double-click the “Install” icon and walk through the simple installation wizard.</p>
+
+<p>Typically, the installation wizards walk you through the process with the following steps (I’ll illustrate the installation of Ubuntu Linux):</p>
+
+<ul>
+<li>Preparation: Make sure your machine meets the requirements for installation. This also may ask you if you want to install third-party software (such as plugins for MP3 playback, video codecs, and more).</li>
+</ul>
+    <img src="https://www.linux.com/sites/all/themes/custom/lcom/images/lf/install-ubuntu.png" alt="" width="600">
+<p>Preparing for your Linux installation.</p>
+<ul>
+    <li>Wireless Setup (If necessary): If you are using a laptop (or machine with wireless), you’ll need to connect to the network, in order to download third-party software and updates.</li>
+
+    <li>Hard drive allocation (Figure 4): This step allows you to select how you want the operating system to be installed. Are you going to install Linux alongside another operating system (called “dual booting”), use the entire hard drive, upgrade an existing Linux installation, or install over an existing version of Linux.</li>
+</ul>     
+    <img src="https://www.linux.com/sites/all/themes/custom/lcom/images/lf/install-choices.png" alt="" width="600">
+<p>Select your type of installation and click Install Now.</p>
+<ul>
+    <li>Location: Select your location from the map.</li>
+
+    <li>Keyboard layout: Select the keyboard layout for your system.</li>
+
+    <li>User setup: Set up your username and password.</li>
+    </ul>
+
+<p>That’s it. Once the system has completed the installation, reboot and you’re ready to go. For a more in-depth guide to installing Linux, take a look at “<a href="https://www.linux.com/sites/all/themes/custom/lcom/images/lf/install-choices.png" target="_blank">How to Install and Try Linux the Absolutely Easiest and Safest Way</a>”, or download the <a href="https://training.linuxfoundation.org/images/pdfs/Preparing_Your_Computer_for_LFS101x.pdf" target="_blank">Linux Foundation\'s PDF guide</a> for Linux installation.</p>
+
+<p><strong>Installing software on Linux</strong></p>
+
+<p>Just as the operating system itself is easy to install, so too are applications. Most modern Linux distributions include what most would consider an “app store”. This is a centralized location where software can be searched and installed. Ubuntu Linux has the Ubuntu Software Center, Deepin has the Deepin Software Center, some distributions rely on Synaptic, while others rely on GNOME Software.</p>
+
+<p>Regardless of the name, each of these tools do the same thing – a central place to search for and install Linux software. Of course, these pieces of software depend upon the presence of a GUI. For GUI-less servers, you will have to depend upon the command line interface for installation.</p>
+
+<p>Let’s look at two different tools to illustrate how easy even the command line installation can be. Our examples are for Debian-based distributions and Fedora-based distributions. The Debian-based distros will use the apt-get tool for installing software and Fedora-based distros will require the use of the yum tool. Both work very similarly. I’ll illustrate using the apt-get command. Let’s say you want to install the wget tool (which is a handy tool used to download files from the command line). To install this using apt-get, the command would like like this:</p>
+
+<p>sudo apt-get install wget</p>
+
+<p>The sudo command is added because you need super user privileges in order to install software. Similarly, to install the same software on a Fedora-based distribution, you would first su to the super user (literally issue the command su and enter the root password), and issue this command:</p>
+
+<p>yum install wget</p>
+
+<p>That’s it...all there is to installing software on a Linux machine. It’s not nearly as challenging as you might think. Still in doubt? Recall the Server Installation from earlier? With a single command:</p>
+
+<p>sudo tasksel</p>
+
+<p>You can install a complete LAMP (Linux Apache MySQL PHP) server on either a server or desktop distribution. It really is that easy.</p>
+
+<p><strong>More Resources</strong></p>
+
+<p>If you’re looking for one of the most reliable, secure, and dependable platforms for both the desktop and the server, look no further than one of the many Linux distributions. With Linux you can assure your desktops will be free of trouble, your servers up, and your support requests at a minimum.</p>
+
+<p>If you’re looking for more resources to help guide you through your lifetime with Linux, check out the following resources: </p>
+<ul>
+    <li><a href="https://www.linux.com/" target="_blank">Linux.com</a>: Everything you need to know about Linux (news, how-tos, answers, forums, and more )</li>
+
+    <li><a href="https://www.linux.org/" target="_blank">Linux.org</a>: Everything about the Linux kernel (with plenty of beginner, intermediate, and adavanced tutorials)</li>
+
+    <li><a href="https://www.howtoforge.com/" target="_blank">Howtoforge</a>: Linux tutorials</li>
+
+    <li><a href="http://www.tldp.org/" target="_blank">Linux Documentation Project</a>: Plenty of documentation (some may be out of date)</li>
+
+    <li><a href="http://www.linux-tutorial.info/" target="_blank">Linux Knowledge Base and Tutorial</a>: Plenty of tutorials.</li>
+</ul>
+
+</font>
+
+</body>
+
+</html>
