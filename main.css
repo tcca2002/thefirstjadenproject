@@ -14,7 +14,7 @@ nav 	{
 
 body	{
 	color: #31A2EC;
-}
+	}
 
 a:link	{
 	color: #F0836B;
@@ -26,4 +26,4 @@ a:hover	{
 
 a:visited {
     text-decoration: none;
-}
+	}
