@@ -23,13 +23,13 @@ p	{
 
 
 a:link	{
-	color: #F0836B;
+	color: blue;
 	}
 
 a:hover	{
-	text-decoration:underline;
+	color:hotpink;
 	}
 
 a:visited {
-    text-decoration: none;
+    color:yelow;
 	}
