@@ -16,6 +16,11 @@ body	{
 	color: black;
 	}
 
+p	{
+	display:inline-block;
+	height:200px;
+}
+
 a:link	{
 	color: #F0836B;
 	}
