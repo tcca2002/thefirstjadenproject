@@ -17,14 +17,9 @@ body	{
 	}
 
 p	{
-	display:inline-block;
-	height:200px;
-}
-
-p	{
 	padding:50px;
 	border:100px;
-}
+	}
 
 
 a:link	{
