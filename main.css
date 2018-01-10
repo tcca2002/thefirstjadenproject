@@ -32,3 +32,11 @@ a:hover	{
 a:visited {
     color:brown;
 	}
+
+img	{
+	display:inline-block;
+}
+
+img	{
+	padding: 20px;
+}
