@@ -14,6 +14,7 @@ nav 	{
 
 body	{
 	color: black;
+	background: -webkit-linear-gradient(top, #31adf9 0%,#2989d8 50%,#207cca 50%,#cf7de8 100%);
 	}
 
 a:link	{
