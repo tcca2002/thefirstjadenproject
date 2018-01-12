@@ -36,3 +36,11 @@ img	{
 img	{
 	padding: 20px;
 }
+
+#arrow {
+	overflow:hidden;
+	border:20px solid rgba(0,0,0,0);
+	height:0;
+	width:0;
+	border-top-color: #F00;
+}
