@@ -17,6 +17,11 @@ body	{
 	background: -webkit-linear-gradient(top, #cfe7fa 0%,#6393c1 100%);
 	}
 
+p:first-letter	{
+		font-size:2em;
+		float:left;
+		}
+
 body:before 	{
 	content: "hi";
 	color:blue;
