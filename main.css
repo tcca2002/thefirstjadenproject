@@ -17,6 +17,11 @@ body	{
 	background: -webkit-linear-gradient(top, #cfe7fa 0%,#6393c1 100%);
 	}
 
+body:before 	{
+	content: "hi";
+	color:blue;
+		}	
+
 a:link	{
 	color: blue;
 	}
