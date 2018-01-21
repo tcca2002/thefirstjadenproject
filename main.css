@@ -3,6 +3,12 @@
       src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
     }
 
+@media screen and (min-width:1001px) {
+	body 	{
+		pading-left:50px;
+		}
+}
+
 nav 	{
 	font:	italic
 		bold
