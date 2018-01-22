@@ -28,11 +28,6 @@ p:first-letter	{
 		float:left;
 		}
 
-body:before 	{
-	content: "hi";
-	color:blue;
-		}	
-
 a:link	{
 	color: blue;
 	}
@@ -50,7 +45,7 @@ img	{
 }
 
 img	{
-	padding: 20px;
+	padding: 5px;
 	}
 
 img	{
