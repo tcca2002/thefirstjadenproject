@@ -16,7 +16,14 @@ nav 	{
 		"Bitstream Vera Serif Bold", Arial, sans-serif;
 	color:green;
 	background:yellow;
+	animation-name: example;
+    	animation-duration: 4s;
 	}
+
+@keyframes example {
+    from {background-color: yellow;}
+    to {background-color: blue;}
+}	
 
 body	{
 	color: black;
