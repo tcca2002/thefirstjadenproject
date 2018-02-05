@@ -37,13 +37,12 @@ p:first-letter	{
 
 p {
 	transform:rotate(5deg);
-	transition: background-color 5s;
+	transition: font 5s;
 	width: 500px;
 }
 
 p:hover {
-	background-color:green;
-	width:800px;
+	font:bold;
 }
 
 a:link	{
