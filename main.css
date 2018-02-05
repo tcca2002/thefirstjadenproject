@@ -45,12 +45,18 @@ p:hover {
 	font-weight: bold;
 }
 
+a	{
+	transition: font-weight 1s;
+}
+
+
 a:link	{
 	color: blue;
 	}
 
 a:hover	{
 	color:hotpink;
+	font-weight: bold;
 	}
 
 a:visited {
